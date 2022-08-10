@@ -1,0 +1,50 @@
+.fondoForm{
+	background-color: $secondaryColor;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+	height: 100vh;
+	.contactoForm{
+		width: 50%;
+		margin: auto;
+		background-color: $transparencia1;
+		padding: 10px 20px;
+		box-sizing: border-box;
+		margin-top: 50px;
+		border-radius: 7px;
+		input,textarea{
+			width: 100%;
+			margin-bottom: 20px;
+			padding: 7px;
+			box-sizing: border-box;
+			font-size: 1.5rem;
+			border: none;
+			outline: rgba(0, 0, 0, 0);
+			border-radius: 8px;
+			.enviarForm{
+				background: $transparencia2;
+				color: $secondaryColor;
+				padding: 10px;
+				font-family: $mainFont;
+			}
+		}
+		textarea{
+			min-height: 100px;
+			max-height: 200px;
+			max-width: 100%;
+		}
+	}
+}
+
+iframe{
+   width: 100%;
+   margin-left: 0px;
+   background-color: $secondaryColor;
+   padding: 20px 20px;
+   border-radius: 20px;
+}
+
+
+
+
+

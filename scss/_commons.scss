@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size:62.5% ;
+}
+
+body{
+   background-image: url(../imagenes/lis2.webp);
+   background-repeat: repeat;
+   background-attachment:fixed;
+   background-size: 200px;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+h1,h4{
+   font-family: $secondaryFont;
+   font-weight: $bold;
+   font-size: $textXl;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   text-align: center;
+   color: $mainColor;
+}
+
+h2{
+   color: $white;
+   text-align: center;
+   margin-top: 10px;
+   font-size: $textMd;
+   margin-bottom: 60px;
+   font-family: $mainFont;
+}
+
+h3{
+   color: $secondaryColor;
+   font-size: $textSm;
+    font-family: $mainFont;
+    font-weight: $ligth;
+    padding-top: 10px;
+
+}
+
+h5{
+   color: $secondaryColor;
+   text-align: center;
+   font-size: $textMs;
+   margin-bottom: 20px;
+   font-family: $mainFont;
+   margin-top: 50px;
+   padding-right: 70px;
+}
+
+h6{
+   color: $mainColor;
+   text-align: center;
+   font-size: $textLg;
+   margin-bottom: 20px;
+   font-family: $mainFont;
+   margin-top: 50px;
+}
+
+p{
+   font-size: $textMs;
+   color: $secondaryColor ;
+   padding: 10px 0;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+article p{
+   background-color: $secondaryColor;
+   text-align: center;
+   width:50%;
+   height: auto;
+   margin: 10px auto;
+   padding: 20px 20px;
+   border: none;
+   overflow: auto;
+   font-size: $textMd;
+   font-weight: $bold;
+   color: $mainColor;
+   border-radius: 20px;
+}

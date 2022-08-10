@@ -1,0 +1,45 @@
+.contenedorTerapias{
+   background-color: $secondaryColor;
+   display: flex;
+ 	justify-content: space-between;
+   .imagenTerapias{
+      width: 50%;
+      padding: 0px;
+      border-radius: 15px;
+      margin-top: 20px;
+   }
+}
+
+.terTitulo{
+   font-size: $textMd;
+   color: $mainColor;
+   padding: 10px 0;
+   text-align: center;
+   font-weight: $bBold;
+}
+
+.terapiaTexto{
+   font-size: $textMs;
+   color: $mainColor;
+   padding: 10px 0;
+   text-align: center;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-top: -10px;
+}
+
+.botonTer{
+      text-align: center;
+   .btnTerapia{
+      background-color: $mainColor;
+      font-weight: $bold;
+      font-size: $textMs;
+      color: $secondaryColor;
+      text-align: center;
+      margin-top: -10px;
+      &:hover{
+      background-color: $secondaryColor;
+      }
+   }
+}
+

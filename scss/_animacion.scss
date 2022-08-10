@@ -1,0 +1,15 @@
+header{
+	width: 100vw;
+	height: 70vh;
+	animation-name:headerCarrusel ;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	background-size: cover;
+	animation-timing-function: ease-in-out;
+	@keyframes headerCarrusel{
+		0%{background-image: url(../imagenes/logoManos.webp)}
+		50%{background-image: url(../imagenes/indexGotero.webp)}
+		75%{background-image: url(../imagenes/indexReiki.webp)}
+		100%{background-image: url(../imagenes/indexTarot.webp)}
+	}
+}

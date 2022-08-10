@@ -1,0 +1,86 @@
+figure{
+	text-align: center;
+	img{
+		width: 70%;
+		margin-top: 30px;
+		border-radius:50%;
+	}
+	figcaption{
+		font-size: $textMs;
+		color: $white ;
+		padding: 10px 0;
+	}
+}
+
+.fondoDestacados{
+	background-color: $secondaryColor;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+
+.fondoIndex{
+	background-color: $mainColor;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-bottom: 15px;
+}
+
+.imagenIndex{
+		width: 70%;
+   		padding: 0px;
+   		border-radius: 15px;
+}
+
+.indexProd{
+	background-color:$transparencia1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-bottom: 15px;
+}
+
+.btnProd{
+	background-color: $mainColor;
+	font-weight: $bold;
+	font-size: $textMs;
+	color: $secondaryColor;
+	&:hover{
+		background-color: $secondaryColor;
+	}
+}
+
+.btn-color{
+	background-color: $secondaryColor;
+	font-weight: $bold;
+	font-size: $textMs;
+	&:hover{
+		background-color: $secondaryColor;
+	}
+}
+
+.prodIndex{
+	color: $mainColor ;
+	padding: 10px 0;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: $bBold;
+	font-size: $textMs;
+}
+
+.precioProd{
+	margin-top: -25px;
+	color: $mainColor ;
+	padding: 10px 0;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: $regular;
+	font-size: $textMs;
+}
+
+

@@ -1,0 +1,44 @@
+.fondoError{
+	background-color: $secondaryColor;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	.textoError{
+		font-size: $textMs;
+		color: $mainColor;
+		padding: 10px 0;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.paginaTexto{
+		color: $mainColor;
+		font-size: $textMd;
+		font-weight: $bold;
+		margin-top: -40px;
+	}
+	.error{
+		font-size: $textXl;
+		color: $mainColor;
+		padding: 10px 0;
+		margin-bottom: 20px;
+		text-align: center;
+		font-weight: $bBold;
+	}
+}
+
+.botonError{
+	text-align: center;
+	margin-top: -10px;
+	padding-bottom: 20px;
+	.btnError{
+		background-color: $mainColor;
+		font-weight: $bold;
+		font-size: $textMs;
+		color: $secondaryColor;
+		text-align: center;
+		&:hover{
+			background-color: $mainColor;
+		}
+	}
+}
+
